@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #111111;
+    overflow: hidden;
+}
+.form-container{
+    background-color: #16151a;
+    color: rgb(250, 250, 250);
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 650px;
+    width: 800px;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav{
+    display: flex;
+}
+.op{
+    background-color: #045c72;
+    width: 379px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.op:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#op1{
+    border-left : black 2px solid;
+}
+#op0{
+    border-right : black 2px solid;
+}
+.inputFields{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.inpHead{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.vInputs{
+    width: 350px;
+    color: aliceblue;
+    background-color: #06344228;
+    border: none;
+    font-size: 17px;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid rgba(10, 180, 180, 1);
+}
+.hInputs{
+    width: 250px;
+    color: aliceblue;
+    background-color: #06344228;
+    border: none;
+    font-size: 17px;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid rgba(10, 180, 180, 1);
+}
+.inpFields2{
+    text-align: center;
+}
+#getHost{
+    width: 150px;
+    color: aliceblue;
+    background-color: #035d79;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    margin: 7px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+}   
+#getHost:hover{
+    cursor: pointer;
+} 
+#checkin{
+    width: 120px;
+    color: aliceblue;
+    background-color: #035d79;
+    border: none;
+    font-size: 20px;
+    padding: 12px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+}
+#getOtp{
+    width: 200px;
+    color: aliceblue;
+    background-color: #035d79;
+    border: none;
+    font-size: 20px;
+    padding: 12px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.finalMsg{
+    Color: Green
+}
+.OtpPart{
+    padding-top: 30px; 
+}
+
+.OtpPart>p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
